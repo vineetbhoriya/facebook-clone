@@ -1,6 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import fbLogo from "./assets/dF5SId3UHWd.svg";
+
 import "./App.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <div className="left w-1/2 mx-14 my-10">
           <div>
             <img className="w-80"
-              src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+              src={fbLogo}
               alt="fb-logo"
             />
           </div>
